@@ -1,0 +1,256 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+xKiller Teamspeak Assistant Tool
+</name>
+</assembly>
+<members>
+<member name="T:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.clash_of_clans">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.clash_royale">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.close_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.Color">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.Diagnostics">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.discord_icon_130958__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.downloading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.exit_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.extra">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.facebook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.flaticon_save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.Folder_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.folder_open_flat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.garrys_mod">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.halo_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.icon_time">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.info_flat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.lifesaver_flat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.lock_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.maximize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.maximize_green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.Messaging">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.minimize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.minimize_yellow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.offline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.online">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.play_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.refresh_flat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.restore">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.restore_green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.Retina_Ready">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.service_find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.services">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.settings_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.sign_delete_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.startup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.status">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.steam">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.stop_flat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.sync_flat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.teamspeak">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.Timeline_HaloMCC_2_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.tray">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:xKiller_Teamspeak_Assistant_Tool.My.Resources.Resources.UAC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

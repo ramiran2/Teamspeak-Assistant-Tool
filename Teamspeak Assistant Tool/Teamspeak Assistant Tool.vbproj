@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{772355EC-B0E8-4A53-ACD9-838F1E4E2465}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>xKiller_Teamspeak_Assistant_Tool.My.MyApplication</StartupObject>
+    <RootNamespace>xKiller_Teamspeak_Assistant_Tool</RootNamespace>
+    <AssemblyName>xKiller Teamspeak Assistant Tool</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>xKiller Teamspeak Assistant Tool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>xKiller Teamspeak Assistant Tool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Teamspeak Assistant Tool.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmTeamspeakContact.Designer.vb">
+      <DependentUpon>frmTeamspeakContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakDiagnostic.Designer.vb">
+      <DependentUpon>frmTeamspeakDiagnostic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakDiagnostic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakDrama.Designer.vb">
+      <DependentUpon>frmTeamspeakDrama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakDrama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakHalo.Designer.vb">
+      <DependentUpon>frmTeamspeakHalo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakHalo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakLogin.Designer.vb">
+      <DependentUpon>frmTeamspeakLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakMain.Designer.vb">
+      <DependentUpon>frmTeamspeakMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakAbout.Designer.vb">
+      <DependentUpon>frmTeamspeakAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakService.Designer.vb">
+      <DependentUpon>frmTeamspeakService.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakService.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakSettingEditor.Designer.vb">
+      <DependentUpon>frmTeamspeakSettingEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakSettingEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakTime.Designer.vb">
+      <DependentUpon>frmTeamspeakTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakUpdate.Designer.vb">
+      <DependentUpon>frmTeamspeakUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeamspeakVideo.Designer.vb">
+      <DependentUpon>frmTeamspeakVideo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeamspeakVideo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TeamspeakEngine.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmTeamspeakAbout.resx">
+      <DependentUpon>frmTeamspeakAbout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakContact.resx">
+      <DependentUpon>frmTeamspeakContact.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakDiagnostic.resx">
+      <DependentUpon>frmTeamspeakDiagnostic.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakDrama.resx">
+      <DependentUpon>frmTeamspeakDrama.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakHalo.resx">
+      <DependentUpon>frmTeamspeakHalo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakLogin.resx">
+      <DependentUpon>frmTeamspeakLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakMain.resx">
+      <DependentUpon>frmTeamspeakMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakService.resx">
+      <DependentUpon>frmTeamspeakService.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakSettingEditor.resx">
+      <DependentUpon>frmTeamspeakSettingEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakTime.resx">
+      <DependentUpon>frmTeamspeakTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakUpdate.resx">
+      <DependentUpon>frmTeamspeakUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeamspeakVideo.resx">
+      <DependentUpon>frmTeamspeakVideo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sync_flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teamspeak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UAC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clash_royale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diagnostics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flaticon_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_open_flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garrys_mod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\halo_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lifesaver_flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Retina_Ready.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\service_find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\services.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_delete_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\status.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clash-of-clans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Messaging.png" />
+    <None Include="Resources\Timeline-HaloMCC-2-21.png" />
+    <None Include="Resources\Discord-logo.jpg" />
+    <None Include="Resources\discord_icon_130958 %281%29.png" />
+    <Content Include="Teamspeak Assistant Tool.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

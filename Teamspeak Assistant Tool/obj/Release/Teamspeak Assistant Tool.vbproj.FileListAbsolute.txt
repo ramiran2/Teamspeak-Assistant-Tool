@@ -1,0 +1,15 @@
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakAbout.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakContact.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakDiagnostic.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakDrama.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakHalo.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakLogin.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakMain.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakService.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakSettingEditor.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakTime.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakUpdate.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.frmTeamspeakVideo.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\xKiller_Teamspeak_Assistant_Tool.Resources.resources
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\Teamspeak Assistant Tool.vbproj.GenerateResource.cache
+A:\xKiller Clan\Projects\Teamspeak Assistant Tool\Teamspeak Assistant Tool\obj\Release\Teamspeak Assistant Tool.vbproj.CoreCompileInputs.cache
